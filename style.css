@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+
+.head-btn button {
+    width: 192px;
+    height: 82px;
+
+    background-color: #F1A900;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+
+    border: none;
+}
+
+header {
+    background-color: black;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.head-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+select {
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+
+.pc {
+    width: 235px;
+    height: 73px;
+    background-color: #F1A900;
+
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.console {
+    width: 235px;
+    height: 73px;
+    background-color: black;
+
+    color: white;
+
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gameplay {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    padding-top:  300px;
+   
+
+}
+
+
+#bir {
+    background: url('img/image 5.svg') no-repeat;
+    background-size: cover;
+}
+
+
+.erangel {
+    width: 966px;
+    height: 202px;
+    background-color: #F1A90054;
+border-radius: 10px;
+    margin: 32px auto;
+
+
+
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+
+
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.margin {
+    padding-bottom: 110px;
+}
+.main-parent{
+display: flex;
+gap: 140px;
+padding-left: 150px;
+}
+#ikki ul li  {
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+ list-style: none;
+color: white;
+
+  }
+  #ikki ul {
+    display: flex;
+    list-style: none;
+    gap: 140px;
+
+}
+#ikki{
+    background-color:#222222;
+    width: 1920px;
+height: 44px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#ikki select{
+    background-color:#222222;
+
+}
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.foot-right {
+    display: flex;
+    gap: 52px;
+    align-items: center;
+}
+footer {
+    background-color: black;
+}
